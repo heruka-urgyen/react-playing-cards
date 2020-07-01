@@ -1,0 +1,14 @@
+{
+  "name": "react-cards",
+  "version": "0.1.0",
+  "description": "SVG playing cards as a react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "github.com/heruka-urgyen",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
