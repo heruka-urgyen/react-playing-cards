@@ -2,8 +2,9 @@
   "name": "@heruka_urgyen/react-playing-cards",
   "version": "0.1.0",
   "description": "SVG playing cards as a react component",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "prepublish": "npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "github.com/heruka-urgyen",

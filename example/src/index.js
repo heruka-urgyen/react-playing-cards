@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 
 import "./index.css"
 
-import Card from "../../index.js"
+import Card from "../../src/index.js"
 
 const ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"]
 const suits = ["c", "d", "h", "s"]
