@@ -30,3 +30,11 @@ where
   back :: Boolean
 ```
 
+## Showcase
+
+```
+cd example
+npx webpack
+
+// open dist/index.html in browser
+```
