@@ -32,7 +32,11 @@ where
 
 ## Showcase
 
+https://heruka-urgyen.github.io/react-playing-cards/
+
 ```
+// building manually
+
 cd example
 npx webpack
 
