@@ -9,7 +9,7 @@
   },
   "author": "github.com/heruka-urgyen",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.13.1"
   },
   "devDependencies": {
