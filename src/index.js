@@ -478,7 +478,7 @@ function Card(props) {
 
   if (back) {
     return (
-      <img src={b} className="card" alt="card-back" style={style} />
+      <img src={b} className="card card__back" alt="card-back" style={style} />
     )
   }
 
