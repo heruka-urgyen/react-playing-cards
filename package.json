@@ -1,6 +1,6 @@
 {
   "name": "@heruka_urgyen/react-playing-cards",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "SVG playing cards as a react component",
   "main": "lib/index.js",
   "scripts": {
