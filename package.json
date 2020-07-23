@@ -9,6 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "github.com/heruka-urgyen",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/heruka-urgyen/react-playing-cards"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1"
