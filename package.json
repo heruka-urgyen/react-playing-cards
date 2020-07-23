@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "npx webpack",
+    "build-example": "cd example && npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "github.com/heruka-urgyen",
