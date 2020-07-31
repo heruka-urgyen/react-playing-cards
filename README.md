@@ -6,7 +6,22 @@ A simple react component that renders svg playing cards by Adrian Kennard. Cards
 ## Usage
 
 ```
+// includes all four deck types; very heavy
+import Card from "@heruka-urgyen/react-playing-cards"
+
 <Card card={card} deckType={deckType} height="XXpx" back />
+
+// separate imports for decks:
+// TcN - two colors normal faces
+// TcB - two colors big faces
+// FcN - four colors normal faces
+// FcB - four colors big faces
+import Card from "@heruka-urgyen/react-playing-cards/lib/TcN"
+import Card from "@heruka-urgyen/react-playing-cards/lib/TcB"
+import Card from "@heruka-urgyen/react-playing-cards/lib/FcN"
+import Card from "@heruka-urgyen/react-playing-cards/lib/FcB"
+
+<Card card={card} height="XXpx" back />
 
 where
 // card rank and suit, e.g 2c, Kh, Ad, etc
