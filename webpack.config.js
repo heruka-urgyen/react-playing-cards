@@ -1,9 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    index: './src/index.js',
+    TcN: './src/components/TcN',
+    TcB: './src/components/TcB',
+    FcN: './src/components/FcN',
+    FcB: './src/components/FcB',
+  },
   output: {
-    filename: 'index.js',
+    filename: '[name].js',
+    chunkFilename: '[name].[hash].js',
     path: path.resolve(__dirname, 'lib'),
     libraryTarget: 'umd',
   },
