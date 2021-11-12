@@ -9,7 +9,7 @@ A simple react component that renders svg playing cards by Adrian Kennard. Cards
 // includes all four deck types; very heavy
 import Card from "@heruka-urgyen/react-playing-cards"
 
-<Card card={card} deckType={deckType} height="XXpx" back />
+<Card card={card} deckType={deckType} height="XXpx" style={} className="" back />
 
 // separate imports for decks:
 // TcN - two colors normal faces
@@ -43,6 +43,8 @@ where
 
 // show back
   back :: Boolean
+
+// style and className are optional
 ```
 
 ## Showcase
